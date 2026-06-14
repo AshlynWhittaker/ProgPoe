@@ -12,6 +12,8 @@ import java.util.Scanner;
  */
 
 public class QuickChat_App {
+
+    private static Storedmessagemanager Storedmessagesmanager;
  
     public static void main(String[] args) {
         //create an object for scanner class
@@ -22,7 +24,7 @@ public class QuickChat_App {
         
         message.runQuickChat(input);
 
-
+Storedmessagesmanager = new Storedmessagemanager();
 
         Login login =new Login();
 
